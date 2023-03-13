@@ -1,0 +1,15 @@
+//지역변수 선언하는 코드//지역변수 선언하는 코드
+
+//패키지 선언
+package main
+//패키지 가져오기
+import "fmt"
+//함수를 선언하고 중괄호로 시작을 알림 
+
+// 패키지 전역 변수 선언 
+var a int =3
+func var02() {
+  
+  var b int = 4
+  fmt.Println(a,b)
+}
