@@ -1,5 +1,6 @@
 //scanln함수가 실패한경우 표준입력스트림을 비워주는 예제
-// EmptyInputStreamPackage
+//EmptyInputStreamPackage
+//입력받을때 에러가 발생하면 표준 입력 스트림을 지워라
 
 //패키지 선언
 package main
