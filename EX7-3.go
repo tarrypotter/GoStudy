@@ -14,7 +14,7 @@ func F(n int)int{
 }
   
 //함수를 선언하고 중괄호로 시작을 알림 
-func main() {
+func EX7-3() {
   fmt.Println(F(9))
   }
 
