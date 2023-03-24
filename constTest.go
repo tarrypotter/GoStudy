@@ -50,7 +50,7 @@ func constTest() {
     fmt.Println("Benz")
     PrintCar(c3,c6)
     fmt.Println("--------------")
-  fmt.Println("월급",c1+c2*c3*c4*c5*c6,"억원 받고싶다 ")
-  fmt.Println("연봉",c1+c2+c3+c4+c5+c6,"조원 받고싶다 ")
+  fmt.Println("1.50%확률로",c1+c2*c3*c4*c5*c6,"억원 받기 ")
+  fmt.Println("2.지금당장 ",c1+c2+c3+c4+c5+c6,"억원 받기")
     fmt.Println("--------------")
 }
