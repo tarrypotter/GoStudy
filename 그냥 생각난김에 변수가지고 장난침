@@ -1,0 +1,36 @@
+package main
+import ("fmt")
+
+func main() {
+  //1
+  var student1 string
+  var age1 int
+  student1 = "John"
+  age1 = 16
+  fmt.Println(student1,"의 나이는",age1,"살 입니다")
+  
+  fmt.Println("")  // 칸 띄우기
+  
+  //2
+  a := "비둘기"
+  b := 999
+  fmt.Println(a)
+  fmt.Println(b)
+  
+  
+  fmt.Println("")
+  
+  //3
+   var c,d int=5,9
+   e:= "쌀 피자 "
+   fmt.Println("이것은",c,d,e)
+   
+   fmt.Println("")
+   
+   //4
+   var (
+     f string = "내년(2024)의 나의(1998년생) 나이는 "
+     g int = 27
+   )
+     fmt.Println(f,g)
+}
